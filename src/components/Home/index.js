@@ -45,7 +45,7 @@ const Home = () => {
              
                 </h1>
                 <h2>Software developer / CS Masters Student</h2>
-                <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+                    <Link reloadDocument to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
            <Logo />
         </div>
