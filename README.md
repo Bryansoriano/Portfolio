@@ -14,8 +14,8 @@ This portfolio project utilizes
 
 ## Features
 
-** Multi page layout📖** 
+Multi page layout📖
 
-** Working contact page 📧 **
+Working contact page 📧 
 
-** Fully responsive 📱 **
+Fully responsive 📱 
