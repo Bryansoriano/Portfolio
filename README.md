@@ -6,11 +6,17 @@ Personal page https://bryansoriano.netlify.app/ built with React and hosted over
 
 This portfolio project utilizes
 -React.js
+
 -Node.js
+
 -EmailJS
+
 -CSS3
+
 -VsCode
+
 -Netlify
+
 
 ## Features
 
