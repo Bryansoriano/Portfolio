@@ -1,20 +1,12 @@
 import { useEffect, useRef } from 'react'
-import LogoS from '../../../assets/images/b.png'
+import LogoS from '../../../assets/images/me.jpg'
 import './index.scss'
 const Logo = () => {
-    const bgRef = useRef();
-    const outlineLogoRef = useRef();
-    const solidLogoRef = useRef();
 
-  
 
     return (
-
-
-
-        <div className='logo-container' ref={bgRef}>
-            <img ref={solidLogoRef} className="solid-logo" src={LogoS} alt="S" />
-      
+        <div className='logo-container'>
+            <img className="solid-logo" src={LogoS} alt="Pic of me" /> 
         </div>
         
         )
