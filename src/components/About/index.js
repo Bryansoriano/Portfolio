@@ -8,7 +8,6 @@ import {
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
-import { Breakpoint } from 'react-socks';
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
@@ -24,9 +23,7 @@ const About = () => {
 
   return (
     <>
-          <div className="container about-page">
-
-        <Breakpoint small up>
+      <div className="container about-page">
         <div className="text-zone">
           <h1>
             <AnimatedLetters
@@ -49,10 +46,8 @@ const About = () => {
                       5 Years Later I graduated with a degree in Information Technology from UCF and I am pursing a Master's in Computer Science.
                       Still striving to learn more about algorithms, compilers, and math that 16 year old me could have never dreamed of.
           </p>
-          </div>
-        </Breakpoint>
+        </div>
 
-        <Breakpoint large up>
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
@@ -74,9 +69,7 @@ const About = () => {
               <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
             </div>
           </div>
-         </div>
-        </Breakpoint>
-
+        </div>
       </div>
       <Loader type="pacman" />
     </>

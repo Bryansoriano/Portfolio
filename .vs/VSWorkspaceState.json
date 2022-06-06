@@ -5,9 +5,9 @@
     "\\src",
     "\\src\\components",
     "\\src\\components\\About",
-    "\\src\\components\\Home",
-    "\\src\\components\\Sidebar"
+    "\\src\\components\\Contact",
+    "\\src\\components\\Home"
   ],
-  "SelectedNode": "\\public\\index.html",
+  "SelectedNode": "\\src\\index.js",
   "PreviewInSolutionExplorer": false
 }
