@@ -5,6 +5,7 @@ import Loader from 'react-loaders'
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import Logo from './Logo'
+import { Breakpoint } from 'react-socks';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['o', 'r', 'i', 'a', 'n', 'o']
@@ -19,7 +20,8 @@ const Home = () => {
      
     return (
     <>
-        <div className="container home-page">
+            <div className="container home-page">
+            <Breakpoint small up>
             <div className="text-zone">
                 <h1>
                     <span className={letterClass}>H</span>
@@ -45,8 +47,9 @@ const Home = () => {
              
                 </h1>
                 <h2>Software developer / CS Masters Student</h2>
-                    <Link reloadDocument to="/contact" className='flat-button'>CONTACT ME</Link>
-            </div>
+                        <Link reloadDocument to="/contact" className='flat-button'>CONTACT ME</Link>             
+                    </div>
+                </Breakpoint>
            <Logo />
         </div>
 

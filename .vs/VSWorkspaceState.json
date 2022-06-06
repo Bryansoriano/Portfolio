@@ -5,8 +5,9 @@
     "\\src",
     "\\src\\components",
     "\\src\\components\\About",
+    "\\src\\components\\Home",
     "\\src\\components\\Sidebar"
   ],
-  "SelectedNode": "\\public\\_redirects",
+  "SelectedNode": "\\public\\index.html",
   "PreviewInSolutionExplorer": false
 }

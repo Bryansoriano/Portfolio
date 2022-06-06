@@ -2,6 +2,7 @@
 import React from 'react'
 import Loader from 'react-loaders'
 import { useRef } from 'react'
+import { Breakpoint } from 'react-socks';
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import { MapContainer, TileLayer,Marker,Popup } from 'react-leaflet'
@@ -53,6 +54,7 @@ const Contact = () => {
                         I am interested in internship opportunities to get hands on experience and  expand my skillset. However, if you have other request or question,
                         don't hesitate to contact me using below form either.
                     </p>
+                    <Breakpoint small up>
                     <div className="contact-form">
                         <form ref={form} onSubmit={sendEmail}>
                             <ul>
@@ -87,9 +89,11 @@ const Contact = () => {
                                 </li>
                             </ul>
                         </form>
-                    </div>
+                        </div>
+                    </Breakpoint>
                 </div>
 
+               
                 <div className="info-map">
                     Bryan Soriano,
                     <br />
@@ -106,7 +110,7 @@ const Contact = () => {
                         </Marker>
                     </MapContainer>
                 </div>
-                
+               
             </div>
             <Loader type="pacman" />
         </>
