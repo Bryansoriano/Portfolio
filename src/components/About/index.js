@@ -26,7 +26,7 @@ const About = () => {
     <>
           <div className="container about-page">
 
-        <Breakpoint small up>
+        <Breakpoint xsmall up>
         <div className="text-zone">
           <h1>
             <AnimatedLetters
